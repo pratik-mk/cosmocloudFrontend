@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px dashed grey;
+}
+
+.ulRoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.ulChild {
+  margin: 5px 0;
+  width: calc(100%-35px);
+}
